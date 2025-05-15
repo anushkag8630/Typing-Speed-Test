@@ -1,0 +1,131 @@
+body{
+}
+html,body{
+    scrollbar-width: none;
+}
+h5{
+    color: #588464;
+    text-align: center;
+    font-size: 30px;
+    font-family:  "Dancing Script", cursive;
+    font-weight:lighter;
+    margin-top: 70px;
+}
+h3{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+.container1 {
+    position: relative;
+    margin-top: -7px;
+    height: 120px;
+    width: 120px;
+    background-color: #92E3A9;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .progress-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+  }
+  
+  .progress-ring-circle {
+    transition: stroke-dashoffset 1s linear;
+  }
+.text1{
+    margin: -10px 0 0 0;
+}
+.numeric1{
+    font-size: 60px;
+  font-weight: bold;
+  margin: 0;
+}
+.container2{
+    height: 100px;
+    width: 100px ;
+    background-color: #92E3A9;
+    border-radius: 7px;
+}
+.text2{
+    padding-left: 10px;
+    margin-top: -60px;
+}
+.numeric2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.TP1{
+    height: auto;
+    width: 420px;
+    margin-left: 67%;
+    margin-top: -22%;
+}
+body.darkMode{
+    background-color: #1A3636;
+    transition: all 0.1s ease-in-out;
+}
+body.darkMode h3{
+    color: #fefae0;
+}
+body.darkMode .paragraphs{
+    color: #FFFFFF;
+}
+.typing-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-display {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #777;
+  height: 200px;
+  overflow-y: auto;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#textContainer {
+    font-size: 40px;
+    line-height: 1.3;
+    word-wrap: break-word;
+    text-align: center;
+     text-align: justify;
+     margin-left: 50px;
+     margin-right: 50px
+}
+
+#textContainer span {
+    padding: 2px;
+}
+
+.correct {
+    color: #4CAF50; 
+}
+
+.incorrect {
+    color: #f44336; 
+}
+
+.active {
+    border-bottom: 2px solid #2196F3; 
+}

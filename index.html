@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypingXpert</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+SA:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h5>TypingXpert</h5>
+    <h1>Test Your Typing Skills</h1>
+    <div id = "homeContainer">
+        <p>SELECT YOUR TEST</p>
+        <select id = "timeList" class = "time">
+            <option value = "30sec">30 Seconds Time</option>
+            <option value = "1min">1 Minute Time</option>
+            <option value = "3min">3 Minutes Time</option>
+        </select>
+        <select id = "textList" class = "text">
+            <option value = "easy">Easy Text</option>
+            <option value = "medium">Medium Text</option>
+            <option value = "hard">Hard Text</option>
+        </select>
+        <button id = "startbtn"> Start Test</button>
+        <div class="toggle-container">
+            <div class="toggle"></div> 
+            <p id="mode">Dark Mode</p>
+        </div>
+    </div>
+    
+    <img src="images/TS1.jpg" class="TS1">
+    <img src="images/TS2.jpg" class="TS2">
+
+    <div id = "testPage" style="display: none;">
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+AU+SA:wght@100&display=swap" rel="stylesheet">
+        <h5>TypingXpert</h5>
+        <h3>Sample text will appear here !</h3>
+        <div class="wrapper">
+            <div class = "container1">
+                <svg class="progress-ring" width="120" height="120">
+                    <circle class="progress-ring-circle" stroke="#FFC107" stroke-width="8" fill="transparent" r="56" cx="60" cy="60" />
+                  </svg><p class="numeric1">30</p> <p class="text1">seconds</p></div>
+            <div class="container2"><p class="numeric2">0</p> <p class="text2">words/min</p></div>
+            <div class="container2"><p class="numeric2">0</p> <p class="text2">chars/min</p></div>
+            <div class="container2"><p class="numeric2">0</p> <p class="text2">% accuracy</p></div>
+          </div>
+          <img src="images/TP1a.jpg" class="TP1">
+          <div class="typing-text">
+            <p id="textContainer" class="paragraphs">
+                a girl runs through the park laughing as the sun warms her face
+                her dog follows close behind wagging its tail and barking happily
+                they stop by the pond to watch the ducks swim and splash
+                she sits on the grass and watches the clouds drift lazily by
+                the sound of the breeze rustling the leaves is peaceful and calming</p>
+          </div>
+    </div>
+
+    <script src = "script.js"></script>
+    <script src = "script2.js"></script>
+    <script src = "paragraphs.js"></script>
+</body>
+</html>
