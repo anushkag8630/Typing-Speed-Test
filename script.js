@@ -48,10 +48,13 @@ window.onload = function () {
                         font-size: 16px;
                     }
                     .restart-btn:hover {
-                        background-color:rgb(234, 154, 26);
+                        background-color:rgb(240, 126, 4);
                     }
                     .darkMode .restart-btn {
                         background-color: rgb(234, 154, 26);
+                    }
+                    .darkMode .restart-btn:hover {
+                        background-color: rgb(240, 126, 4);
                     }
                     #textContainer {
                         outline: none;
