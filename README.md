@@ -2,6 +2,8 @@
 
 **TypingXpert** is a dynamic typing speed test web application that challenges users to improve their typing speed and accuracy. Built using modern web technologies, it offers customizable time limits and difficulty levels to simulate real typing scenarios
 
+You can check the website here : https://typingxpert.netlify.app/
+
 ## 🚀 Features
 
 - ⏱️ Time options: 15s, 30s, 60s
